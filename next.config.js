@@ -1,4 +1,8 @@
 module.exports = {
- basePath:"/portfilio",
- assetPrefix:"/portfilio"
-}
+  images: {
+    loader: "akamai",
+    path: "/portfilio",
+  },
+  basePath: "/portfilio",
+  assetPrefix: "/portfilio",
+};

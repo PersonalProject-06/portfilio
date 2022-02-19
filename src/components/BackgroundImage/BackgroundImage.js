@@ -1,11 +1,17 @@
 import React from "react";
-const prefix = "/portfilio";
+import Image from "next/image";
+
 const BackgroundImage = () => (
   <div>
-    <img
-      src={ `${prefix}/images/pic-min.png`}
-      height="380px"
-      alt="firas debich - Firas Debich "
+    <Image
+      placeholder="blur"
+      src={"/images/pic-min.png"}
+      height={310}
+      width={220}
+      layout="responsive"
+      alt="firas debich - Firas Debich"
+      priority
+      blurDataURL
     />
   </div>
 );
